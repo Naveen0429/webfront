@@ -77,15 +77,15 @@ export default function Dashboard() {
       <MDBContainer className="chart gap-5">
         <div className="back p-4">
         <MDBBtn className="btn ">Overal Request</MDBBtn>
-        <h3 className="text-center m-3">37890</h3>
+        <h3 className="text-center m-3">43680</h3>
         </div>
         <div className="back p-4">
         <MDBBtn className="btn">Request Successed</MDBBtn>
-        <h3 className="text-center m-3">7890</h3>
+        <h3 className="text-center m-3">9890</h3>
      </div>
      <div className="back p-4">
      <MDBBtn className="btn">Pending Request</MDBBtn>
-     <h3 className="text-center m-3">3890</h3>
+     <h3 className="text-center m-3">4890</h3>
     </div>
     <div className="m">
     <img alt="example" className="img-fluid headerimg" src="./chart.png" />

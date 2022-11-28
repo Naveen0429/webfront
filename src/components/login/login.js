@@ -35,7 +35,7 @@ export default function Login() {
     validate,
     onSubmit: async (values) => {
       try {
-        await axios.post("https://crm-app-management.herokuapp.com/login", values);
+        await axios.post("https://naveenprabhu29.herokuapp.com/login", values);
         // localStorage.setItem("react_app_token", login.data.token);
         navigate("/dashboard");
       } catch (error) {
@@ -46,7 +46,7 @@ export default function Login() {
   return (
     <MDBContainer className="loginform">
       <div className="d-flex flex-wrap justify-content-center align-items-center mt-3 gap-5">
-        <img alt="example" className="img-fluid headerimg" src="./crm.png" />
+        <img alt="example" className="img-fluid headerimg" src="./crom.jpg" />
         <form onSubmit={formik.handleSubmit}>
           <h1 className="p-3">Login User Account</h1>
           {/* email */}

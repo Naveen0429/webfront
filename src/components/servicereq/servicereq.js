@@ -50,7 +50,7 @@ export default function Servicereq() {
     validate,
     onSubmit: async (values) => {
       try {
-         await axios.post("https://crm-app-management.herokuapp.com/servicereq", values);
+         await axios.post("https://naveenprabhu29.herokuapp.com/servicereq", values);
 // (JSON.stringify(values, null, 2));
           navigation("/dashboard");
       } catch (error) {

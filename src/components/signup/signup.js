@@ -48,7 +48,7 @@ export default function Signup() {
     validate,
     onSubmit: async (values) => {
       try {
-         await axios.post("https://crm-app-management.herokuapp.com/register", values);
+         await axios.post("https://naveenprabhu29.herokuapp.com/register", values);
 // (JSON.stringify(values, null, 2));
           navigation("/");
       } catch (error) {
@@ -58,7 +58,7 @@ export default function Signup() {
   return (
     <MDBContainer className="loginform">
       <div className="d-flex flex-wrap justify-content-center align-items-center mt-3 gap-5">
-        <img alt="example" className="img-fluid headerimg" src="./crm.png" />
+        <img alt="example" className="img-fluid headerimg" src="./crom.jpg" />
         <form onSubmit={formik.handleSubmit}>
           <h1 className="p-3">Register User Account</h1>
           <MDBRow className="mb-4">
